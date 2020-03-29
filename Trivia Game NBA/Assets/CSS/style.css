@@ -1,0 +1,90 @@
+* {
+    font-family: 'Impact', 'Charcoal', 'serif';
+}
+
+html {
+    background: url("https://turbologo.com/articles/wp-content/uploads/2019/10/NBA-logo-illustration-1280x720.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f7f5f4f5;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px black;
+    margin: 10px auto;
+}
+
+#timer-display {
+    margin: 10px auto;
+    font-family: monospace;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+.start {
+    color: rgb(3, 3, 3);
+    background-color: rgb(243, 243, 239);
+    border: 2px outset rgb(8, 8, 8);
+    padding: 5px 15px;
+    margin: 15px auto;
+    size: 30px;
+}
+
+.question-block {
+    display: none;
+    width: 960px;
+    text-align: left;
+    background-color: rgba(203, 203, 204, 0.89);
+    border: 2px double rgb(243, 242, 240);
+    padding: 10px;
+}
+
+.question {
+    margin: 10px auto;
+}
+
+.ul {
+    list-style: none;
+}
+
+.li {
+    padding-left: 20px;
+}
+
+.done {
+    display: none;
+    border: 2px outset rgb(241, 237, 237);
+    padding: 5px 15px;
+    margin: 10px auto;
+}
+
+.results {
+    font-size: 20px;
+    display: none;
+}
+
+#correct, #incorrect, #unanswered {
+    margin: 10px auto;
+
+}
+
+.reset {
+    display: none;
+    color: rgb(7, 7, 7);
+    background-color: rgb(244, 248, 248);
+    border: 2px outset rgb(6, 7, 7);
+    border-radius: 2px;
+    padding: 5px 15px;
+    margin: 10px auto;
+
+}
